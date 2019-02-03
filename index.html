@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>layout №6 - Galkin DA</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="./font/myriadpro.css">
+	<link rel="stylesheet" type="text/css" href="./font/verdanakoi8.css">
+</head>
+
+<body>
+	<header>
+		<div class="grid-header">
+			<div class="header-big">
+				<h1>sitename</h1>
+				<div class="feedback">
+					<div class="separator">
+						<img src="./img/separator-VR-header.png">
+					</div>
+					<ul class="feedback-link">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<menu>
+				<div class="grid">
+					<ul>
+						<li>
+							<a class="type-11" href="#">home</a>
+						</li>
+						<li>
+							<a class="type-11" href="#">about</a>
+						</li>
+						<li>
+							<a class="type-11" href="#">portfolio</a>
+						</li>
+						<li>
+							<a class="type-11" href="#">blog</a>
+						</li>
+						<li>
+							<a class="type-11" href="#">contact</a>
+						</li>
+					</ul>
+					<form class="search" action="https://google.ru/search" target="_blank"">
+						<label class="type-11 search-title" for="srch">search </label>
+						<div class="search-box">
+							<input class="search-window" id="srch" type="search" name="search">
+							<input class="search-glass" type="submit" name="search-glass">
+						</div>
+					</form>
+				</div>
+			</menu>
+		</div>
+	</header>
+
+	<section>
+		<div class="grid">
+			<div class="welcome">
+				<h2>welcome to our site</h2>
+				<p class="type-2-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla vitae accumsan feugiat, odio nisi tristique odio, sit amet dictum quam augue vel urna. Proin eleifend, erat eu rhoncus suscipit, nisi velit pharetra leo</p>
+				<a class="main-button type-9" href="#">learn more</a>
+				<a class="main-button type-9" href="#">our work</a>
+				<img class="main-first" src="./img/main-first.jpg" alt="главная картинка неведомой абстракции">
+				<img class="main-second" src="./img/main-sec.jpg" alt="второстепенная картинка неведомой абстракции">
+			</div>
+			<div class="location type-8">You`re here: <a class="type-8" href="#"> Home</a> > <a class="type-8" href="#"> Welcome</a>..</div>
+			<div class="marker"></div>
+		</div>
+	</section>
+
+	<div class="separator-main"> </div>
+
+	<div class="grid-main">
+		<main>
+			<h3>from the blog</h3>
+			<article class="type-5">blog post name here
+				<div class="date">October 15th 2010 | <a class="comments" href="#"> 7 comments</a></div>
+				<img src="./img/blog-pic-1.png" alt="title blog 1">
+				<p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla vitae accumsan feugiat, odio nisi tristique odio, sit amet dictum quam augue vel urna. Proin eleifend, erat eu rhoncus suscipit, nisi velit pharetra leo <a class="continue" href="#"> Continue Reading...</a></p>
+			</article>
+			<article class="type-5">blog post name here
+				<div class="date">October 15th 2010 | <a class="comments" href="#"> 7 comments</a></div>
+				<img src="./img/blog-pic-2.png" alt="title blog 2">
+				<p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla vitae accumsan feugiat, odio nisi tristique odio, sit amet dictum quam augue vel urna. Proin eleifend, erat eu rhoncus suscipit, nisi velit pharetra leo <a class="continue" href="#"> Continue Reading...</a></p>
+			</article>
+			<button class="blog-button type-3">
+				<p>the blog</p>
+			</button>
+		</main>
+
+		<aside class="type-3">
+			<div class="folders">
+				<ul>
+					<li><a  class="type-3" href="#">Comments</a></li>
+					<li><a  class="type-3" href="#">Categories</a></li>
+					<li><a  class="type-3" href="#">Archives</a></li>
+				</ul>
+				<p class="type-2">Lorem ipsum dolor sit amet, consectetur accumsan feuglat!</p>
+				<div class="separator-folders"> </div>
+				<p class="type-2">Lorem ipsum dolor sit amet, consectetur accumsan feuglat!</p>
+			</div>
+			<article class="type-1" >
+				<em>who we are</em>
+				<img src="./img/side-pic.png" alt="picture of dog">
+				<p class="type-2-1">Lorem ipsum dolor sit amet, consectetur accumsan feuglat..<a href="#">Read more</a></p>			
+			</article>
+			<div class="sponsors">
+				<p class="type-1"><em>sponsors</em></p>
+				<a class="nike" href="https://www.nike.com/ru/ru_ru/ru/"  target="_blank"></a>
+				<a class="adidas" href="http://www.adidas.ru/"  target="_blank"></a>
+			</div>	
+		</aside>
+	</div>	
+
+	<div class="separator-blog-footer"> </div>
+
+	<footer>
+		<div class="grid">
+			<div class="big-footer">
+				<form class="part" action="#">
+					<label class="quote" for="qt">get a free quote</label>
+					<input class="footer-survey-name placeh" id="qt" type="text" name="name" placeholder="Your name">
+					<input class="footer-survey-lastname placeh" type="text" name="lastname" placeholder="Last Name">
+					<textarea class="footer-survey-message placeh" type="text" name="message" placeholder="Bla Bla Bla"></textarea>
+					<input class="footer-survey-mail placeh" type="email" name="email" placeholder="Your E-mail adress">
+					<button class="button-footer">
+						<p class="type-3">submit</p>
+					</button>
+				</form>
+				<div class="part">
+					<p class="projects" >our recent projects</p>
+					<a class="project-recent" href="#"> <img src="./img/footer-proj-1.png" alt="project picture"></a>
+					<a class="project-recent" href="#"> <img src="./img/footer-proj-2.png" alt="project picture"></a>
+					<a class="project-recent" href="#"> <img src="./img/footer-proj-3.png" alt="project picture"></a>
+					<a class="project-recent" href="#"> <img src="./img/footer-proj-4.png" alt="project picture"></a>
+					<a href="#" class="button-footer">
+						<p class="type-3">portfolio</p>
+					</a>
+				</div>
+				<div class="part">
+					<p class="twitter-header" >twitter stream</p>
+					<div class="twitter-block">
+						<p class="twitter type-2" >Lorem ipsum dolor sit amet, consectetur accumsan feuglat!<a class="continue" href="#"> 4 Minutes Ago..</a></p>
+						<p class="twitter type-2" >Lorem ipsum dolor sit amet, consectetur accumsan feuglat!<a class="continue" href="#"> 4 Minutes Ago..</a></p>
+						<p class="twitter type-2" >Lorem ipsum dolor sit amet, consectetur accumsan feuglat!<a class="continue" href="#"> 4 Minutes Ago..</a></p>
+					</div>
+					<a href="#" class="button-footer">
+						<p class="type-3">follow us</p>
+					</a>
+				</div>				
+			</div>
+		</div>
+
+		<div class="footer-separator"> </div>
+
+		<div class="small-footer">
+			<div class="grid">
+				<p class="type-6">All Copyrights Reserved | 2010 | WebsiteName</p>
+				<ul>
+					<li>
+						<a class="type-6" href="#">Home</a>
+					</li>
+					<li>
+						<a class="type-6" href="#">About</a>
+					</li>
+					<li>
+						<a class="type-6" href="#">Portfolio</a>
+					</li>
+					<li>
+						<a class="type-6" href="#">Blog</a>
+					</li>
+					<li>
+						<a class="type-6" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
